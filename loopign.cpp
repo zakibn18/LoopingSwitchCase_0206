@@ -24,4 +24,19 @@ int main(){
   }
   cout << "Nilai counter terakhir = " << counter << endl << endl;
 
+
+  // Looping dengan while
+   srand(time(0));
+   i = rand() % 10;
+
+   cout << "Nilai awal i = " << i << endl;
+   while (i < 7) {
+       cout << "Nilai i = " << i << " TI UMY" << endl;
+       i = rand() % 10;
+       perulanganWhile++;
+   }
+
+   cout << "Jumlah perulangan = " << perulanganWhile << endl;
+   cout << "Nilai akhir i = " << i << endl << endl;
+
 }
