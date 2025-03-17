@@ -39,4 +39,15 @@ int main(){
    cout << "Jumlah perulangan = " << perulanganWhile << endl;
    cout << "Nilai akhir i = " << i << endl << endl;
 
+  // Loop dengan do-while
+  cout << "Perulangan Do While = " << endl;
+  do {
+      cout << "Nilai i = " << i << " TI UMY" << endl;
+      i = rand() % 10;
+      perulanganDO++;
+  } while (i < 7);  // Perbaikan kondisi
+
+  cout << "Jumlah Perulangan = " << perulanganDO << endl;
+  cout << "Nilai akhir i = " << i << endl;
+
 }
