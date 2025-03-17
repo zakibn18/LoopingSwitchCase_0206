@@ -14,7 +14,7 @@ int main(){
   float panjang, lebar;
   float alas, tinggi;
 
-
+  do {
     cout << "Menu\n";
     cout << "1. Luas Persegi Panjang" << endl;
     cout << "2. Luas Persegi Panjang" << endl;
@@ -45,5 +45,5 @@ int main(){
     default:
       cout << "Wrong Choice!!!!!!";
     }
-
+  } while (pilihan != 3);
 }
